@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+.title {
+  font-size: xx-large;
+}
+
 a:hover {
   text-decoration: underline;
 }
