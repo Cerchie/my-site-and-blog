@@ -23,6 +23,10 @@ export default function Home({ allPostsData }) {
 <title>Lucia Cerchie</title>
 <link rel="icon" href="/ctrl.png" />
 </Head>
+<hr></hr>
+      <section>
+      <Link href="https://www.linkedin.com/in/luciacerchie">LinkedIn</Link> | <Link href="https://github.com/Cerchie">GitHub</Link> 
+      </section>
 <h1>Developer. Teacher. Tinkerer.</h1>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
       <h2 className={utilStyles.headingLg}>Latest from the <Link href="/bloghome">Blog</Link></h2>
@@ -64,7 +68,35 @@ export default function Home({ allPostsData }) {
           </li>
         </ul>
       </section>
+
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Publications</h2>
+        <ul className={utilStyles.list}>
+        <li className={utilStyles.listItem}>
+            <Link href="https://www.confluent.io/blog/author/lucia-cerchie/"> Apache Kafka blog posts for Confluent</Link> - Confluent
+                <br />
+          </li>
+          <li className={utilStyles.listItem}>
+            <Link href="https://stepzen.com/blog/using-vercels-middleware-and-graphql"> Living on the Edge: Using Vercel’s Middleware and
+                        GraphQL</Link> - StepZen
+                <br />
+          </li>
+          <li className={utilStyles.listItem}>
+            <Link href="https://www.a11yproject.com/posts/text-resizing-in-ios-and-android/">Text resizing in iOS and Android</Link> - The A11y Project 
+                <br />
+          </li>
+          <li className={utilStyles.listItem}>
+            <Link href="https://learn.codesee.io/getting-your-bearings/">Getting your bearings with CodeSee</Link> - Codesee
+                <br />
+          </li>
+          <li className={utilStyles.listItem}>
+            <Link href="https://dev.to/cerchie">self-published DEV.to posts</Link> - DEV.to
+                <br />
+          </li>
+        </ul>
+      </section>
+      
+        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Highlighted <Link href="/talkhome">Talks</Link></h2>
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
@@ -82,5 +114,6 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
     </Layout>
+
   );
 }
