@@ -21,7 +21,7 @@ export default function BlogHome({ allPostsData }) {
     <Layout bloghome>
 <Head>
 <title>Blog Posts</title>
-<link rel="icon" href="/favicon.ico" />
+<link rel="icon" href="/ctrl.png" />
 </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>

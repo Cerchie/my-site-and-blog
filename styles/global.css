@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  color: hsl(126°, 87%, 24%);
+  color: 	hsl(299, 100%, 41%);
   text-decoration: none;
 }
 
@@ -24,4 +24,12 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+h2 {
+  color: 	hsl(299, 100%, 31%);
+}
+
+h1 {
+  color:hsl(299, 100%, 31%);
 }

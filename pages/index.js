@@ -21,10 +21,11 @@ export default function Home({ allPostsData }) {
     <Layout home>
 <Head>
 <title>Lucia Cerchie</title>
-<link rel="icon" href="/favicon.ico" />
+<link rel="icon" href="/ctrl.png" />
 </Head>
+<h1>Developer. Teacher. Tinkerer.</h1>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-      <Link href="/bloghome"><h2 className={utilStyles.headingLg}>Blog</h2></Link>
+      <h2 className={utilStyles.headingLg}>Latest from the <Link href="/bloghome">Blog</Link></h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
    <li className={utilStyles.listItem} key={id}>
@@ -37,7 +38,6 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Scrollytales</h2>
         <ul className={utilStyles.list}>
@@ -52,7 +52,20 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Talks</h2>
+        <h2 className={utilStyles.headingLg}>Other Projects</h2>
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>
+          `git cherry pick` <Link href="https://github.com/Cerchie/git-cherry-pick-tutorial">tutorial</Link>
+                <br />
+          </li>
+          <li className={utilStyles.listItem}>
+          Install <Link href="https://www.npmjs.com/package/learnclis">this npm package </Link>to learn about Command Line Interfaces.
+                <br />
+          </li>
+        </ul>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Highlighted <Link href="/talkhome">Talks</Link></h2>
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
             <Link href="https://www.youtube.com/watch?v=LwzMLILuDXs">Navigating Large Repositories</Link> - Upstream 2023
@@ -66,20 +79,6 @@ export default function Home({ allPostsData }) {
             <Link href="https://youtu.be/Gg2v5fOeiZ8?si=FsnljUFIo2RcFS7u">Getting Started With Apache Kafka® For JS Devs</Link> - Certified Fresh Events 2023
                 <br />
           </li>
-          <li className={utilStyles.listItem}>
-            <Link href="https://www.youtube.com/live/klvt1xUArmU?si=hXi-lL48FpuyQ5SF&t=10952"> Let's Get Started With Apache Kafka® for Python Developers</Link> - WeAreDevelopers Live 2023
-                <br />
-          </li>
-          <li className={utilStyles.listItem}>
-            <Link href="https://youtu.be/F_a9EGbsyKQ?si=-Yfp0BmDI19cnbtN">Data is Fun-damental: The Basics of Apache Kafka®</Link> - Virtual Coffee Lunch'n'Learn 2022
-                <br />
-          </li>
-          <li className={utilStyles.listItem}>
-            <Link href="https://youtu.be/mUt0vojFyXY?si=DRtOjHXCNZ925iBY">Getting Started With GraphQL</Link> - Virtual Coffee Lunch'n'Learn 2021
-                <br />
-          </li>
-
-
         </ul>
       </section>
     </Layout>
