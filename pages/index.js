@@ -37,6 +37,16 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Scrollytales</h2>
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>
+            <Link href="https://what-is-the-lsp.netlify.app/">Language Server Protocols</Link>
+                <br />
+          </li>
+        </ul>
+      </section>
     </Layout>
   );
 }
