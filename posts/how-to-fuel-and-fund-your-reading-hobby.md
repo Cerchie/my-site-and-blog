@@ -52,7 +52,7 @@ In the U.S., there are usually a couple features available that you should know 
 
 1. Interlibrary loan - what if you want a book your library doesn't have? You can request it through interlibrary loan, which basically means your library is borrowing it from another library.
 2. Purchase request - sometimes the book will be too new for interlibrary loan. Often, you can request that your library purchase the book you want and put it on hold for you!
-3. Library apps --- think [Libby](https://www.overdrive.com/apps/libby) and [Hoopla](https://www.hoopladigital.com/). Check books out on your phone! 
+3. Library apps - think [Libby](https://www.overdrive.com/apps/libby) and [Hoopla](https://www.hoopladigital.com/). Check books out on your phone! 
 
 ### Used books.
 
