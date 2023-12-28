@@ -14,7 +14,7 @@ So if you're interested in reading more, or in where to find affordable books, t
 
 Yup! Giving you permission right here to drop that book in the middle of it if you get bored. If you want to read a lot,
 you've got to have internal motivation, and forcing yourself to finish a book that's boring to you,
- page by page, will take up your valuable reading time. You may not have much of it. 
+ page by page, will take up your valuable reading time. 
 
  ### Go by authors.
 
