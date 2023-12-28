@@ -32,7 +32,7 @@ you've got to have internal motivation, and forcing yourself to finish a book th
 
  ### You don't have to read a book. You can listen to it.
 
- A lot of people find reading very fatigueing for various reasons. That's what audiobooks are for! 
+ A lot of people find reading very fatiguing for various reasons. That's what audiobooks are for! 
 
  ### Find the medium that works for you.
 
