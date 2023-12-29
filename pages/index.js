@@ -108,7 +108,7 @@ export default function Home({ allPostsData }) {
                 <br />
           </li>
           <li className={utilStyles.listItem}>
-            <Link href="https://youtu.be/Gg2v5fOeiZ8?si=FsnljUFIo2RcFS7u">Getting Started With Apache Kafka® For JS Devs</Link> - Certified Fresh Events 2023
+            <Link href="https://www.confluent.io/events/kafka-summit-london-2023/a-hitchhikers-guide-to-apache-kafka-r/">A Hitchhiker's Guide to Apache Kafka®</Link> - Kafka Summit London 2023
                 <br />
           </li>
         </ul>

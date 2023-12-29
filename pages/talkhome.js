@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import utilStyles from '../styles/Home.module.css';
 import Link from 'next/link';
-import Date from '../components/date';
 
 import { getSortedPostsData } from '../lib/posts';
 
@@ -16,11 +15,11 @@ export async function getStaticProps() {
 }
 
 
-export default function Blog({ allPostsData }) {
+export default function Blog() {
   return (
     <Layout blog>
 <Head>
-<title>Blog Posts</title>
+<title>Talks</title>
 <link rel="icon" href="/ctrl.png" />
 </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -50,7 +49,10 @@ export default function Blog({ allPostsData }) {
             <Link href="https://youtu.be/mUt0vojFyXY?si=DRtOjHXCNZ925iBY">Getting Started With GraphQL</Link> - Virtual Coffee Lunch'n'Learn 2021
                 <br />
           </li>
-
+          <li className={utilStyles.listItem}>
+            <Link href="https://www.confluent.io/events/kafka-summit-london-2023/a-hitchhikers-guide-to-apache-kafka-r/">A Hitchhiker's Guide to Apache Kafka®</Link> - Kafka Summit London 2023
+                <br />
+          </li>
 
         </ul>
       </section>
