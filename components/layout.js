@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/ctrl.png" />
         <meta
           name="description"
-          content="Lucia Cerchie's personal website"
+          content="Developer Experience Professional"
         />
         <meta
           property="og:image"
