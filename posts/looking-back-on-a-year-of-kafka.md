@@ -48,6 +48,6 @@ In fact, the day before I returned to work, an idea for a data streaming demonst
 
 As I reflect on all this, I wonder: should users have to know so many internal details to implement Kafka? After all, you shouldn’t have to sit down with a dictionary to learn a language – ideally, you can listen to people using the language and then start using it yourself. That’s how language teaching apps like DuoLingo work. 
 
-But what would removing some of the complexity in Kafka look like? Ismael Juma addressed this in the keynote for Current 2023 (~minute 28). It could be dynamically merging and splitting partitions. It could come to be as key-based ordering in partitionless topics. 
+But what would removing some of the complexity in Kafka look like? Ismael Juma addressed this in the [keynote](https://www.confluent.io/events/current/2023/kafka-flink-and-beyond/) for Current 2023 (~minute 28). It could be dynamically merging and splitting partitions. It could come to be as key-based ordering in partitionless topics. 
 
 Who knows what the future holds? But I’m buckled in for the ride. 
