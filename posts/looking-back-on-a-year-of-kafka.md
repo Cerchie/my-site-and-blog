@@ -2,7 +2,7 @@ title: Looking Back On a Year of Learning Kafka
 date: '2024-01-29'
 ---
 
-# Kafka Summit London 5k Fun Run 
+# Looking Back On a Year of Learning Kafka
 
 I have sensory issues. I’ve never pursued a diagnosis, but I deal with these issues on a daily basis. My home resembles Gollum’s cave because overhead lighting gives me a headache. A long trip to the grocery store can leave me so overstimulated and overwhelmed that I need to go to bed at seven. If I don’t get medium-impact exercise for more than two days in a row, I develop tics. If you say my name while I’m in hyperfocus I won’t hear you.
 
