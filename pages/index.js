@@ -43,7 +43,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Scrollytales</h2>
+        <h2 className={utilStyles.headingLg}>Visual Storytelling</h2>
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
             <Link href="https://what-is-the-lsp.netlify.app/">Language Server Protocols</Link>
@@ -60,6 +60,14 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
           `git cherry pick` <Link href="https://github.com/Cerchie/git-cherry-pick-tutorial">tutorial</Link>
+                <br />
+          </li>
+          <li className={utilStyles.listItem}>
+          Tabs or Spaces? Use Kafka + Node.js to <Link href="https://www.lets-settle-this.com/">settle it!</Link>
+                <br />
+          </li>
+          <li className={utilStyles.listItem}>
+          Data Visualization with <Link href="https://flink-st-kafka.streamlit.app/">Streamlit + Confluent Cloud</Link>
                 <br />
           </li>
           <li className={utilStyles.listItem}>
