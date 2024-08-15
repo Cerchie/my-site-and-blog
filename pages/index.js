@@ -94,10 +94,6 @@ export default function Home({ allPostsData }) {
                 <br />
           </li>
           <li className={utilStyles.listItem}>
-            <Link href="https://learn.codesee.io/getting-your-bearings/">Getting your bearings with CodeSee</Link> - Codesee
-                <br />
-          </li>
-          <li className={utilStyles.listItem}>
             <Link href="https://dev.to/cerchie">self-published DEV.to posts</Link> - DEV.to
                 <br />
           </li>
