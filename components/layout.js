@@ -5,6 +5,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const name = 'Lucia Cerchie';
 
@@ -60,6 +61,7 @@ export default function Layout({ children, home }) {
         )}
       </header>
       <main>{children}</main>
+      <GoogleAnalytics gaId="GTM-NDMVKML3" />
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>

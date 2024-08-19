@@ -22,6 +22,7 @@ export default function Home({ allPostsData }) {
 <Head>
 <title>Lucia Cerchie</title>
 <link rel="icon" href="/ctrl.png" />
+
 </Head>
 <hr></hr>
       <section>
