@@ -22,7 +22,6 @@ export default function Home({ allPostsData }) {
 <Head>
 <title>Lucia Cerchie</title>
 <link rel="icon" href="/ctrl.png" />
-
 </Head>
 <hr></hr>
       <section>
@@ -61,14 +60,6 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
           `git cherry pick` <Link href="https://github.com/Cerchie/git-cherry-pick-tutorial">tutorial</Link>
-                <br />
-          </li>
-          <li className={utilStyles.listItem}>
-          Tabs or Spaces? Use Kafka + Node.js to <Link href="https://www.lets-settle-this.com/">settle it!</Link>
-                <br />
-          </li>
-          <li className={utilStyles.listItem}>
-          Data Visualization with <Link href="https://flink-st-kafka.streamlit.app/">Streamlit + Confluent Cloud</Link>
                 <br />
           </li>
           <li className={utilStyles.listItem}>

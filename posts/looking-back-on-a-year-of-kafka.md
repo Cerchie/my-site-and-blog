@@ -34,9 +34,6 @@ During my first year learning Kafka, I revelled in the complexity. I wrote clien
 [An Introduction to Apache Kafka Consumer Group Strategy](https://www.confluent.io/blog/kafka-consumer-group-partition-strategy/)
 
 
-
-
-
 At the same time, I found that reasoning about Kafka, its general purpose and its place in its larger environment of data streaming technologies was difficult. Kafka in context kept slipping from my grasp. I knew people valued it enough to put up with the complexity, to put up with the intricate partition calculations and the interdependent configurations. But how to demonstrate Kafka’s power? If Kafka was a car, I knew how to replace air filters, check the tires, and do an oil change, but the skill of driving was escaping me. 
 
 Then, I needed to take a break. I was having a baby. When you have a baby and you’re on parental leave, you’re not sleeping and you’re doing a lot of work, but you’re also sitting a lot. At first, I tried watching Netflix, but The Fall of the House of Usher was way too scary. So, I dove head-first into CSS and JavaScript animations. 
